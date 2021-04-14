@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle</title>
+  <script src="puzzleScript.js"></script>
+</head>
+<body>
+
+  <h1 style="background-color:#cc7eb1;padding:20px;text-align:center"> · Puzzle Game 看图解谜 · </h1>
+    <h3>请仔细观察下列图形，找出规律，并得出问号处的数值。</h3>
+
+  <img src="JSPuzzle1.png" width="200" height="200">
+  <img src="JSPuzzle2.png" width="200" height="200">
+  <img src="JSPuzzle3.png" width="200" height="200"><br>
+  <img src="JSPuzzle4.png" width="200" height="200">
+  <img src="JSPuzzle5.png" width="200" height="200">
+  <img src="JSPuzzle6.png" width="200" height="200"><br><br>
+
+  <img src="JSPuzzleQuestion.png" width="200" height="200"><br>
+  <button onclick="enterAnswer()">点此输入答案...</button>
+  <button onclick="getAnswer()">点此获得正确答案...</button>
+  <button onclick="getHint()">点此获得提示...</button>
+
+<style type="text/css">
+  #answers{padding:30px;background-color:#f7ab00}
+</style>
+  <h2 id="answers"> 你的答案：_____ </h2>
+
+</body>
+</html>
