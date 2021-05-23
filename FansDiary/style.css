@@ -1,0 +1,85 @@
+html, body{
+  font-family: "STXihei";
+  color: #222;
+}
+
+.navbar-nav{
+  font-size: 18px;
+}
+
+.carousel img{
+  width: 100%;
+  height:"auto";
+}
+
+.jumbotron img{
+  margin:1rem;
+}
+.jumbotron a{
+  margin-bottom: 1.5rem;
+}
+
+.card1{
+  margin-bottom: 2rem
+}
+
+.sectionbg{
+  background-color: #d5def6;
+  margin: 3rem;
+}
+.sectionbg img{
+  margin: 0rem;
+}
+.sectionbg h2{
+  margin: 2rem;
+  text-align: center;
+}
+.sectionbg a{
+  margin:2rem;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+#fixed{
+  background-image: url("Images/Sugar.jpg");
+  height:600px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.bi-arrow-right-circle-fill{
+  color: #eb82a5;
+}
+.bi-arrow-right-circle-fill:hover{
+  color: #c45b76;
+}
+
+.figure img{
+  margin:1.5rem;
+  width:80%;
+  height:"auto";
+}
+
+footer{
+  background-color: #fff3e5;
+  color: #333;
+  padding-top: 2rem;
+}
+
+
+/* 子页面样式 */
+.nav-tabs{
+  margin-left:0.5rem;
+}
+
+#Backgroundpic{
+  background-image: url("Images/Bg.jpg");
+  height:300px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}

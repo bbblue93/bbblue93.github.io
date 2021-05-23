@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>秀粉备忘录</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+    <script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
+  </head>
+
+<body>
+<!-- 顶部导航栏 -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" width="98" class="img-fluid" alt="Responsive image"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">首页</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           爷青回忆录
+        </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="aqyProducer.html">桃系秀粉</a>
+          <a class="dropdown-item" href="#">鹅系秀粉</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item disabled" href="#">酷系秀粉（建设中）</a>
+        </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">饭圈科普</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">嗑糖专区</a>
+       </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- 轮播图 -->
+<br><br><br><br>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://v.qq.com/detail/8/89244.html" target="_blank"><img src="Images/CHUANG.jpg"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.iqiyi.com/a_g1tdbitzkd.html" target="_blank"><img src="Images/Youth3.jpg"></a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- 网站介绍 + 节目入口 -->
+<div class="container-fluid">
+<div class="row jumbotron">
+  <div class="text-center">
+    <div class="col-12">
+      <h1 class="display-4">秀粉是......</h1>
+      <h4 style="padding:1.5rem;line-height:2rem;">一生被PUA的心碎人，也是被偶像光芒治愈着的幸福小孩。有着永远立不起来的Flag，永远流不完的泪；每年都骂骂咧咧关掉选秀，又常常忍不住怀念。</h4>
+      <hr class="my-4">
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <img src="Images/Aqy.png" height="98">
+      <p class="lead">多少人的白月光，i 群像的天堂。<br>故事从冬天开始，在夏季结束。</p>
+      <a class="btn btn-outline-success btn-lg" href="aqyProducer.html" role="button">桃系秀粉入口</a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <img src="Images/Tx.png" height="98">
+      <p class="lead">抓马但刺激，创始人都有着强心脏。<br>世界那么大，就一起闯吧。</p>
+      <a class="btn btn-outline-primary btn-lg" href="#" role="button">鹅系秀粉入口</a>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      <img src="Images/Yku.png" height="98">
+      <p class="lead">或许无人在意，但总有人发现了宝藏。很幸运，陪少年的他走过寂寂无名。</p>
+      <a class="btn btn-outline-info btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">酷系秀粉入口</a>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><strong>酷系入口</strong></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-left">
+              酷系选秀备忘录尚未搭建完毕，敬请期待！
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- 主题曲专区（卡片样式） -->
+<br>
+<div class="container-fluid">
+  <div class="row text-left">
+    <div class="col-12">
+      <h1 class="display-4">主题曲回顾</h1>
+      <p class="lead">曾经无限循环过的歌曲，再次响起还是会记得初次见面的瞬间吧。</p><br>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/EiEi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">偶像练习生</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2018</h6>
+          <p class="card-text">"Hey you hey you hey, <br> Pick me, Eiei"</p>
+          <a href="https://www.iqiyi.com/v_19rreuq9fo.html" target="_blank" class="card-link">《Eiei》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/Pd101.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">创造101</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2018</h6>
+          <p class="card-text">"Baby you want pick me up, <br> 喊出我的名字！"</p>
+          <a href="https://v.qq.com/x/cover/ocjepullqnzm7d9/v00260ydboi.html" target="_blank" class="card-link">《创造101》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/Youth1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">青春有你</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+          <p class="card-text">"让心跳给我回应, <br> 交汇的眼神已确定"</p>
+          <a href="https://www.iqiyi.com/v_19rqqia9s8.html" target="_blank" class="card-link">《青春有你》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/CallMyname.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">创造营2019</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+          <p class="card-text">"Let's move it move it move it, <br> Keep movin' movin' movin' "</p>
+          <a href="https://v.qq.com/x/cover/nwbcno6pa3kbh3y/s0030hpsx7l.html" target="_blank" class="card-link">《喊出我的名字》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/YesOK.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">青春有你第二季</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2020</h6>
+          <p class="card-text">"要住进你的心里呀, <br> 约定吧 一起绽放"</p>
+          <a href="https://www.iqiyi.com/v_19rx01h6rw.html" target="_blank" class="card-link">《YES！OK！》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/Chuang2020.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">创造营2020</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2020</h6>
+          <p class="card-text">"稍息立正站好 请报道, <br> 第一眼微笑"</p>
+          <a href="https://v.qq.com/x/cover/mzc002009kta0eh/v0033m2xisd.html" target="_blank" class="card-link">《你最最最重要》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/Werock.jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">青春有你第三季</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2021</h6>
+          <p class="card-text">"跟世界过招, <br> 拿出我 最骄傲的倔强"</p>
+          <a href="https://www.iqiyi.com/v_202gab01gfs.html" target="_blank" class="card-link">《We Rock》</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 card1">
+      <div class="card shadow">
+        <img src="Images/Chuang2gather.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">创造营2021</h5>
+          <h6 class="card-subtitle mb-2 text-muted">2021</h6>
+          <p class="card-text">"这是我梦⾥到过的地⽅, <br> 站在蓝天下 尽情地彼此交响"</p>
+          <a href="https://v.qq.com/x/cover/mzc00200ql4fk9v/m0036d063vg.html" target="_blank" class="card-link">《我们一起闯》</a>
+          <a href="https://v.qq.com/x/cover/mzc00200vhjzvbb/f0036msf641.html" target="_blank" class="card-link">《Eng. Ver》</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 出道团体一览 折叠-->
+<br><hr class="my-4"><br>
+<div class="container-fluid">
+  <div class="row text-left">
+    <div class="col-12">
+      <h2 class="display-5">/ 2018-2021 出道团体一览表 /</h2>
+    </div>
+  </div>
+</div><br>
+<div class="container-fluid">
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          《偶像练习生》：Nine Percent
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2018年4月6日
+        <br>解散日期：2019年10月6日
+        <br>团体成员（按排名）：蔡徐坤 <span class="badge badge-dark">C</span> <span class="badge badge-secondary">队长</span>
+        、陈立农、范丞丞、黄明昊、林彦俊、朱正廷、王子异、小鬼王琳凯、尤长靖
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          《创造101》：火箭少女101
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2018年6月23日
+        <br>解散日期：2020年6月23日
+        <br>团体成员（按排名）：孟美岐 <span class="badge badge-dark">C</span>
+        、吴宣仪、杨超越、段奥娟、Yamy <span class="badge badge-secondary">队长</span>、赖美云、张紫宁、Sunnee、李紫婷、傅菁、徐梦洁
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          《青春有你》：UNINE
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2019年4月6日
+        <br>解散日期：2020年10月6日
+        <br>团体成员（按排名）：李汶翰 <span class="badge badge-dark">C</span> <span class="badge badge-secondary">队长</span>
+        、李振宁、姚明明、管栎、嘉羿、胡春杨、夏瀚宇、陈宥维、何昶希
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          《创造营2019》：R1SE
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2019年6月8日
+        <br>解散日期：未解散
+        <br>团体成员（按排名）：周震南 <span class="badge badge-dark">C</span> <span class="badge badge-secondary">队长</span>
+        、何洛洛、焉栩嘉、夏之光、姚琛、翟潇闻、張顏齐、刘也、任豪、赵磊、赵让
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          《青春有你第二季》：THE9
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2020年5月30日
+        <br>解散日期：未解散
+        <br>团体成员（按排名）：刘雨昕 <span class="badge badge-dark">C</span>
+        、虞书欣、许佳琪、喻言、谢可寅、安崎 <span class="badge badge-secondary">队长</span>、赵小棠、孔雪儿、陸柯燃
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          《创造营2020》：硬糖少女303
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2019年7月4日
+        <br>解散日期：未解散
+        <br>团体成员（按排名）：希林娜依·高 <span class="badge badge-dark">C</span> <span class="badge badge-secondary">队长</span>
+        、趙粵、王艺瑾、陈卓璇、郑乃馨、刘些宁、张艺凡
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block btn-lg text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          《创造营2021》：INTO1
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+      <div class="card-body">
+        出道日期：2021年4月24日
+        <br>解散日期：未解散
+        <br>团体成员（按排名）：刘宇 <span class="badge badge-dark">C</span>
+        、赞多 Santa、力丸 Rikimaru、米卡 Mika、高卿尘 Nine、林墨、伯远、张嘉元、尹浩宇 Patrick、周柯宇、刘彰
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- 饭圈科普 -->
+<div class="jumbotron sectionbg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="Images/Fanquan.jpg" class="img-fluid rounded">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-4">科普专区</h2>
+        <h4 class="text-center" style="line-height:2.5rem"> “不愿再笑man，dyf怎么又在kp，<br> 昨天ss这么多不是应该先维权吗？”</h4>
+        <hr class="my-4">
+        <p class="lead text-center" style="line-height:2.5rem"> ？ ？？  ？？？<br>缩写看不懂？专业词汇搞不明白？<br>刷微博总是迷惑得好像在看天书......</p>
+        <a class="btn btn-outline-dark btn-lg" href="#" role="button">点此进入，揭晓饭圈密语 <i class="bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 嗑糖专区，大热CP -->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+    </div>
+  </div>
+</figure>
+<div class="container-fluid">
+  <div class="row text-left">
+    <div class="col-12">
+      <h1 class="display-4 text-center" style="margin-top:-3rem;"> / 嗑糖专区 / <a href="#"><i class="bi-arrow-right-circle-fill"></i></a></h1>
+      <hr class="my-4"><br>
+      <p class="lead" style="margin-left:2rem; margin-right:2rem;">有一种尝不到但也很甜的糖，每一年都有人命中注定会遇见。不止一次感叹过，还好你们在彼此身旁。</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <figure class="figure">
+        <a href="#">
+        <img src="Images/Sanyu.jpg" class="figure-img img-fluid rounded img-thumbnail" data-toggle="tooltip" data-placement="top" title="好多宇">
+        </a>
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <figure class="figure">
+        <a href="#">
+        <img src="Images/Pi.jpg" class="figure-img img-fluid rounded img-thumbnail" data-toggle="tooltip" data-placement="top" title="元周率">
+        </a>
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <figure class="figure">
+        <a href="#">
+        <img src="Images/ShiZhou.png" class="figure-img img-fluid rounded img-thumbnail" data-toggle="tooltip" data-placement="top" title="十周">
+        </a>
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <figure class="figure">
+        <a href="#">
+        <img src="Images/Yes.jpg" class="figure-img img-fluid rounded img-thumbnail" data-toggle="tooltip" data-placement="top" title="烨斯">
+        </a>
+      </figure>
+    </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="Images/Logo.png" width="98" class="img-fluid" alt="Responsive image">
+        <hr class="my-4">
+        <p>秀粉备忘录</p>
+        <p>2018-2021</p>
+        <p>bbblue93.github</p>
+        <p>fansdiary@163.com</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="my-4">
+        <h5>数据与资料来源</h5>
+        <hr class="my-4">
+        <p>爱奇艺</p>
+        <p>腾讯视频</p>
+        <p>维基百科</p>
+        <p>谷歌</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="my-4">
+        <h5>社交网站</h5>
+        <hr class="my-4">
+        <p>微博</p>
+        <p>豆瓣</p>
+        <p>B站</p>
+        <p>Lofter</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <h5 style="text-align:right; font-size:12pt"> &copy; bbblue93 </h5>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
